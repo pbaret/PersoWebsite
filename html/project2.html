@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Drawing Track, an non-intrusive computer assisted drawing tool">
+    <meta name="keywords" content="Dawing-Track, OptiTrack, Post-Wimp, Non-intrusive drawing">
+	<meta name="author" content="Pierre Baret">
+
+	<title>Drawing Track Project</title>
+
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Font Awesome CSS -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <!-- Animate css -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <!-- Magnific css -->
+    <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" media="screen">
+    <!-- Responsive CSS -->
+    <link href="../assets/css/responsive.css" rel="stylesheet">
+    
+    <!-- CUSTOM CSS -->
+    <link href="./css/p2.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../assets/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/images/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="tt-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar navbar-custom" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/images/logo.png" alt=""></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#resume">Resume</a></li>
+                        <li><a href="../index.html#skills">Skills</a></li>
+                        <li><a href="../index.html#blog">Projects</a></li>
+                        <li><a href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container -->
+        </nav>
+    </header><!-- End Navigation -->
+
+
+    <!-- Project Section -->
+    <section id="inshort" class="inshort-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Drawing Track</h2>
+            
+            <div class="row">
+                <div class="col-md-4 col-md-push-8">
+                    <div class="wow fadeInUp">
+                        <img class="illustration1 img-responsive" src="../assets/images/blog/p2.1.jpg" alt="DrawTrack">
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-pull-4" style="margin-top: 30px;">
+                    <div class="short-info wow fadeInUp">
+                        <h3>In short</h3>
+                        <p>For a school project, I imagined and prototyped with 3 friends a computer assisted drawing system based on an <a href="https://www.optitrack.com/">OptiTrack</a>. The idea was to provide a system able to capture a drawing on a computer without changing the artists' favorite tools : paper and pen.</p>
+                    </div>
+                    <div class="short-info wow fadeInUp">
+                        <h3>About the project</h3>
+                        <p>This project was part of the courses about Post-WIMP interactions at ENSIMAG which focuses on Human-Computer interactions other than Windows, Icons, Menus and Pointing device (WIMP). For this project, we had to chose an intersting subject, do the research and develop a prototype using the availiable tools of the Ensimag's fablab.</p>
+                        <p>The software for the prototype was developped under Ubuntu with C++ using the Optitrack SDK, Qt and the Coint Cloud Library.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </section><!-- End Section -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    
+    <section class="section2 section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Prototype</h2>
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                    <div class="short-info wow fadeInUp">
+                        <h3>Installation</h3>
+                        <img class="img-responsive" src="../assets/images/blog/opti_inst2.jpg" alt="installation">
+                        <p>The pen and the support are tracked by 3 optitrack cameras thanks to motion capture markers (forming what we call "rigid bodies"). A video projector is used to project the recorded drawing on the paper.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Section -->
+    <section id="video" class="video-section1">
+            <div class="container">
+                <div class="video-intro">
+                    <a class="popup-video" href="https://www.youtube.com/watch?v=4x-a2t7Lx18"><i class="fa fa-play"></i></a>
+                    <h2>Demo</h2>
+                </div>
+            </div>
+    </section>
+    
+    
+    <!-- Works Section -->
+    <section id="works" class="section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Gallery</h2>
+            <div class="row">
+                <div id="grid" class="gallery">
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="popup-video2 mfp-iframe" href="https://www.youtube.com/watch?v=9-_W4z4e788"><i class="fa fa-play"></i></a>
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.1.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Pikachu Demo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.5.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.5.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Pikachu</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.2.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.2.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>A nice basketball</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.4.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.4.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>A nice beach</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.8.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.8.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Pen with rigid body</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.3.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.3.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Pen's rigid body</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.6.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.6.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Support</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link" href="../assets/images/blog/p2.7.jpg"><i class="fa fa-search-plus"></i></a>                      
+                                </div><!-- /.links -->
+                                <img src="../assets/images/blog/p2.7.jpg" alt="image"> 
+                                <div class="portfolio-info">
+                                    <h3>Support with paper sheet</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.portfolio-item -->
+                </div><!-- /#grid -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- End Works Section -->
+    
+    
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ --> 
+    
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright text-center">
+                        <p>Pierre Baret <br> Template by TrendyTheme &copy; 2015. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#inshort"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+    <!-- Javascript files -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.stellar.min.js"></script>
+    <script src="../assets/js/jquery.sticky.js"></script>
+    <script src="../assets/js/smoothscroll.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/jquery.countTo.js"></script>
+    <script src="../assets/js/jquery.inview.min.js"></script> 
+    <script src="../assets/js/jquery.easypiechart.js"></script>
+    <script src="../assets/js/jquery.shuffle.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script src="../assets/js/jquery.fitvids.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="../assets/js/scripts2.js"></script>
+    
+</body>
+</html>
